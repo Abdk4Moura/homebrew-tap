@@ -3,22 +3,22 @@
 class Filament < Formula
   desc "P2P file transfer between terminals and browsers - no upload, no account"
   homepage "https://filament.autumated.com"
-  version "0.2.1-beta.8"
+  version "0.2.1-beta.9"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Abdk4Moura/filament/releases/download/cli-v0.2.1-beta.8/filament-aarch64-apple-darwin.tar.gz"
-      sha256 "278eb157c9567ec65ac9344472e4e41c7149f6e9ed9b9c6171860b9753a76ae5"
+      url "https://github.com/Abdk4Moura/filament/releases/download/cli-v0.2.1-beta.9/filament-aarch64-apple-darwin.tar.gz"
+      sha256 "403d08ec3458f90ef0c7f886bec07db6cbcdf9f6b50a9cf0931169ff15710e88"
     else
-      url "https://github.com/Abdk4Moura/filament/releases/download/cli-v0.2.1-beta.8/filament-x86_64-apple-darwin.tar.gz"
-      sha256 "ab74910c49e6a19618fb45ae0c720ae8baf9a60d2e6ee59097bd3625a34c2e4f"
+      url "https://github.com/Abdk4Moura/filament/releases/download/cli-v0.2.1-beta.9/filament-x86_64-apple-darwin.tar.gz"
+      sha256 "0755b49a19aa30cce0c686ff11d63fca8db10534273ff4e8a3abac337743d65d"
     end
   end
 
   on_linux do
-    url "https://github.com/Abdk4Moura/filament/releases/download/cli-v0.2.1-beta.8/filament-x86_64-unknown-linux-musl.tar.gz"
-    sha256 "1c9ed4f63b50d8c6924570da4c6d9e31999bc98f408987040f4f855af00463f8"
+    url "https://github.com/Abdk4Moura/filament/releases/download/cli-v0.2.1-beta.9/filament-x86_64-unknown-linux-musl.tar.gz"
+    sha256 "62cd00d57ad112568713393f3975c264d6df99fbf07e1648b88f3248e1a35b98"
   end
 
   def install
